@@ -1,10 +1,10 @@
-import Board from "@/components/board/board";
+import Game from "@/components/game/game";
 
 export default function Home() {
   return (
     <div>
       <h1>Tic-Tac-Toe</h1>
-      <Board></Board>
+      <Game></Game>
     </div>
   );
 }
